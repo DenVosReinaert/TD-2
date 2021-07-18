@@ -16,7 +16,6 @@ public class Comp_Base : MonoBehaviour, IComponent
 
     public List<Transform> joints_;
 
-    // Start is called before the first frame update
     void Awake()
     {
         componentType = componentType_;
